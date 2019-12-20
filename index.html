@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<!-- МЕТА -->
+	<title>Портфолио HTML-верстальщика</title>
+	<meta name="description"
+		content="Портфолио HTML-верстальщика Дмитрия Захарченко. Верстка сайтов по PSD макетам, Figma на заказ. Верстка сайтов, интернет-магазинов и Landing Page (фиксированная, резиновая, адаптивная).">
+	<meta name="keywords" content="портфолио, верстальщик, верстка на заказ, html, css, js, javascript">
+
+	<!-- Контролирует поведение поисковых систем при индексации страницы -->
+	<meta name="robots" content="index,follow,noodp"><!-- Все поисковые системы -->
+	<meta name="googlebot" content="index,follow"><!-- Указание отдельно для Google -->
+
+	<!-- Позволяет указать Google не показывать в поисковой выдаче поле для поиска по сайту -->
+	<meta name="google" content="nositelinkssearchbox">
+	<!-- Позволяет указать Google не предлагать перевести эту страницу -->
+	<meta name="google" content="notranslate"><!-- Подтверждает авторство страницы в Google Search Console -->
+	<meta name="generator" content="program"><!-- Короткое описание тематики вашего сайта -->
+	<meta name="subject" content="Верстка сайтов по PSD макетам"><!-- open graph Facebook-->
+	<meta content="Портфолио HTML-верстальщика">
+	<!-- <meta content="website"> -->
+
+	<!-- не меньше 600х315, не более 8Мб -->
+	<!-- <meta content="http://localhost.my/img/og_cover.jpg">
+  <meta content="описание не длиннее 155 символов">
+  <meta content="Facebook ID"> -->
+
+	<!-- Twitter -->
+	<!-- <meta name="twitter:card" content="summary_large_image"> -->
+	<meta name="twitter:site" content="@zdl79">
+	<meta name="twitter:title" content="Портфолио HTML-верстальщика">
+	<meta name="twitter:description"
+		content="Портфолио HTML-верстальщика Дмитрия Захарченко. Верстка сайтов по PSD макетам, Figma на заказ. Верстка сайтов, интернет-магазинов и Landing Page (фиксированная, резиновая, адаптивная).">
+	<meta name="twitter:creator" content="@zdl79">
+
+	<!-- картинка не меньше 280х150, не более 1Мб -->
+	<!-- <meta name="twitter:image" content="http://localhost.my/img/tw_cover.jpg"> -->
+
+	<!-- G+ / Pinterest -->
+	<meta content="Портфолио HTML-верстальщика">
+	<meta
+		content="Портфолио HTML-верстальщика Дмитрия Захарченко. Верстка сайтов по PSD макетам, Figma на заказ. Верстка сайтов, интернет-магазинов и Landing Page (фиксированная, резиновая, адаптивная).">
+	<!-- <meta content="http://localhost.my/img/g_cover.jpg"> -->
+
+
+	<!-- Фавиконы и иконки сайта -->
+	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png"
+		data-mce-href="favicons/apple-touch-icon-57x57.png">
+	<!-- <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png" data-mce-href="/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" data-mce-href="/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" data-mce-href="/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" data-mce-href="/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" data-mce-href="/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" data-mce-href="/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" data-mce-href="/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" data-mce-href="/apple-touch-icon-180x180.png">-->
+	<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32"
+		data-mce-href="favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" href="favicons/android-chrome-192x192.png" sizes="192x192"
+		data-mce-href="favicons/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96"
+		data-mce-href="favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16"
+		data-mce-href="favicons/favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#4285f4">
+
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#4285f4">
+
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<!-- Яндекс.Браузер -->
+	<meta name="viewport" content="ya-title=#4e69a2,ya-dock=fade">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap&subset=cyrillic-ext"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.min.css">
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__top">
+			<div class="container header__container">
+				<nav class="header__nav">
+					<ul class="main-menu">
+						<li class="main-menu__item">
+							<a href="#about" class="main-menu__link">Обо мне</a>
+						</li>
+						<li class="main-menu__item">
+							<a href="#skills" class="main-menu__link">Мои навыки</a>
+						</li>
+						<li class="main-menu__item">
+							<a href="#works" class="main-menu__link">Мои работы</a>
+						</li>
+						<li class="main-menu__item">
+							<a href="#contacts" class="main-menu__link">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__socials">
+					<a href="https://www.facebook.com/profile.php?id=100002342026860" class="header__socials__link"
+						target="_blank">
+						<svg class="header__socials__icon">
+							<use xlink:href="svg/sprite.symbol.svg#facebook"></use>
+						</svg>
+					</a>
+					<a href="https://vk.com/id200388726" class="header__socials__link" target="_blank">
+						<svg class="header__socials__icon">
+							<use xlink:href="svg/sprite.symbol.svg#vk"></use>
+						</svg>
+					</a>
+					<a href="tg://resolve?domain=forestino" class="header__socials__link" target="_blank">
+						<svg class="header__socials__icon">
+							<use xlink:href="svg/sprite.symbol.svg#telegram"></use>
+						</svg>
+					</a>
+				</div>
+				<button class="hamburger hamburger--spin-r" type="button">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</button>
+			</div>
+		</div>
+		<div class="header__content">
+			<div class="header__subtitle">
+				Добро пожаловать!
+			</div>
+			<h1 class="header__title">
+				Меня зовут Дмитрий <br> и я HTML-верстальщик
+			</h1>
+
+			<div class="header__subtitle">
+				Рад приветствовать Вас на своей странице!
+			</div>
+
+		</div>
+	</header>
+	<section class="about" id="about">
+		<div class="container">
+			<h2 class="title">
+				Обо мне
+				<div class="title__bottom">
+					<svg class="title__icon">
+						<use xlink:href="svg/sprite.symbol.svg#user"></use>
+					</svg>
+				</div>
+			</h2>
+			<div class="about__inner">
+				<div class="about__img">
+					<img src="./img/my_photo.jpg" alt="Фото">
+				</div>
+				<div class="about__descr">
+					<p>
+						Приветствую Вас на своем сайте-портфолио. Меня зовут Дмитрий. Я занимаюсь HTML-версткой сайтов.
+
+					</p>
+					<p>У меня полностью кроссбраузерная, адаптивная и валидная верстка. В процессе работы над проектом
+						для автоматизации процесса верстки я использую сборщик проектов Gulp , препроцессоры SCSS/SASS
+						для ускоренной стилизации сайта и более гибкого кода, при необходимости Pixel Perfect для
+						верстки, совпадающей с предоставленным макетом «пиксель в пиксель», БЭМ, Bootstrap, flexbox и
+						media-запросы для адаптивной верстки сайта. </p>
+					<p>
+						Динамику сайта стараюсь писать на чистом Javascript, но не брезгую и использованием jQuery. В
+						конце работы осуществляется проверка отображения верстки в различных браузерах на разных
+						устройствах, код проверяется валидатором на соответствие стандартам и устраняются выявленные
+						ошибки.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="skills">
+		<div id="skills" style="position: absolute; top: -100px; left: 0"></div>
+		<div class="container">
+			<h2 class="title">
+				Мои навыки
+				<div class="title__bottom">
+					<svg class="title__icon">
+						<use xlink:href="svg/sprite.symbol.svg#skills"></use>
+					</svg>
+				</div>
+			</h2>
+			<ul class="skills__list">
+				<li class="skills__item">
+					<div class="counter" data-cp-percentage="90" data-cp-color="#13918c"> </div>
+					<div class="skills__name">HTML5</div>
+				</li>
+				<li class="skills__item">
+					<div class="counter" data-cp-percentage="85" data-cp-color="#13918c"> </div>
+					<div class="skills__name">CSS3</div>
+				</li>
+				<li class="skills__item">
+					<div class="counter" data-cp-percentage="50" data-cp-color="#13918c"> </div>
+					<div class="skills__name">JavaScript</div>
+				</li>
+				<li class="skills__item">
+					<div class="counter" data-cp-percentage="60" data-cp-color="#13918c"> </div>
+					<div class="skills__name">jQuery</div>
+				</li>
+				<li class="skills__item">
+					<div class="counter" data-cp-percentage="30" data-cp-color="#13918c"> </div>
+					<div class="skills__name">PHP</div>
+				</li>
+				<li class="skills__item">
+					<div class="counter" data-cp-percentage="70" data-cp-color="#13918c"> </div>
+					<div class="skills__name">SASS/SCSS</div>
+				</li>
+				<li class="skills__item">
+					<div class="counter" data-cp-percentage="65" data-cp-color="#13918c"> </div>
+					<div class="skills__name">Gulp</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="works" id="works">
+		<div class="container">
+			<h2 class="title">
+				Мои работы
+				<div class="title__bottom">
+					<svg class="title__icon">
+						<use xlink:href="svg/sprite.symbol.svg#camera"></use>
+					</svg>
+				</div>
+			</h2>
+			<ul class="works__list">
+				<li class="works__item">
+					<figure class="works__img">
+						<img src="./img/works/birzha-truda.jpg" alt="Биржа труда">
+					</figure>
+					<div class="works__hover">
+						<h3 class="works__title">
+							<a class="works__link" href="/birzha-truda" target="_blank">Биржа труда</a>
+						</h3>
+						<div class="works__links">
+							<a href="/birzha-truda" class="works__page" target="_blank">
+								<svg class="works__icon">
+									<use xlink:href="svg/sprite.symbol.svg#link"></use>
+								</svg>
+							</a>
+							<a href="/birzha-truda/vse-vacancy.html" class="works__page" target="_blank">
+								<svg class="works__icon">
+									<use xlink:href="svg/sprite.symbol.svg#link"></use>
+								</svg>
+							</a>
+							<a href="/birzha-truda/vacancy.html" class="works__page" target="_blank">
+								<svg class="works__icon">
+									<use xlink:href="svg/sprite.symbol.svg#link"></use>
+								</svg>
+							</a>
+							<a href="/birzha-truda/articles.html" class="works__page" target="_blank">
+								<svg class="works__icon">
+									<use xlink:href="svg/sprite.symbol.svg#link"></use>
+								</svg>
+							</a>
+							<a href="/birzha-truda/inform-page.html" class="works__page" target="_blank">
+								<svg class="works__icon">
+									<use xlink:href="svg/sprite.symbol.svg#link"></use>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li class="works__item">
+					<figure class="works__img">
+						<img src="./img/works/ecodom.jpg" alt="Экодом">
+					</figure>
+					<div class="works__hover">
+						<h3 class="works__title">
+							<a class="works__link" href="/ecodom" target="_blank">Экодом</a>
+						</h3>
+						<div class="works__links">
+							<a href="/ecodom" class="works__page" target="_blank">
+								<svg class="works__icon">
+									<use xlink:href="svg/sprite.symbol.svg#link"></use>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li class="works__item">
+					<figure class="works__img">
+						<img src="./img/works/mks.jpg" alt="Компания МКС">
+					</figure>
+					<div class="works__hover">
+						<h3 class="works__title">
+							<a class="works__link" href="/mks" target="_blank">Компания МКС</a>
+						</h3>
+						<div class="works__links">
+							<a href="/mks" class="works__page" target="_blank">
+								<svg class="works__icon">
+									<use xlink:href="svg/sprite.symbol.svg#link"></use>
+								</svg>
+							</a>
+							<a href="/mks/services.html" class="works__page" target="_blank">
+								<svg class="works__icon">
+									<use xlink:href="svg/sprite.symbol.svg#link"></use>
+								</svg>
+							</a>
+							<a href="/mks/transporting.html" class="works__page" target="_blank">
+								<svg class="works__icon">
+									<use xlink:href="svg/sprite.symbol.svg#link"></use>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li class="works__item">
+					<figure class="works__img">
+						<img src="./img/works/pulse.jpg" alt="Подбор пульсометра">
+					</figure>
+					<div class="works__hover">
+						<h3 class="works__title">
+							<a class="works__link" href="/pulse" target="_blank">Подбор пульсометра</a>
+						</h3>
+						<div class="works__links">
+							<a href="/pulse" class="works__page" target="_blank">
+								<svg class="works__icon">
+									<use xlink:href="svg/sprite.symbol.svg#link"></use>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="tools">
+		<div class="container">
+			<h2 class="title">
+				В работе я применяю
+				<div class="title__bottom">
+					<svg class="title__icon">
+						<use xlink:href="svg/sprite.symbol.svg#tools"></use>
+					</svg>
+				</div>
+			</h2>
+			<div class="tools__slider">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="./img/tools_slider/avocode-logo.jpg" alt="Avocode">
+						</div>
+						<div class="swiper-slide">
+							<img src="./img/tools_slider/bootstrap-logo.jpg" alt="Bootstrap">
+						</div>
+						<div class="swiper-slide">
+							<img src="./img/tools_slider/figma.jpg" alt="Figma">
+						</div>
+						<div class="swiper-slide">
+							<img src="./img/tools_slider/gulp-logo.jpg" alt="Gulp">
+						</div>
+						<div class="swiper-slide">
+							<img src="./img/tools_slider/html-logo.jpg" alt="HTML and CSS">
+						</div>
+						<div class="swiper-slide">
+							<img src="./img/tools_slider/JavaScript.jpg" alt="Javascript">
+						</div>
+						<div class="swiper-slide">
+							<img src="./img/tools_slider/jquery-logo.jpg" alt="jQuery">
+						</div>
+						<div class="swiper-slide">
+							<img src="./img/tools_slider/photoshop-logo.jpg" alt="Photoshop">
+						</div>
+						<div class="swiper-slide">
+							<img src="./img/tools_slider/pixel-logo.jpg" alt="Pixel Perfect">
+						</div>
+						<div class="swiper-slide">
+							<img src="./img/tools_slider/sass.png" alt="Sass">
+						</div>
+					</div>
+	
+				</div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contacts" id="contacts">
+		<div class="container">
+			<h2 class="title">
+				Контакты
+				<div class="title__bottom">
+					<svg class="title__icon">
+						<use xlink:href="svg/sprite.symbol.svg#contacts"></use>
+					</svg>
+				</div>
+			</h2>
+			<ul class="contacts__inner">
+				<li class="contacts__item">
+					<div class="contacts__logo loc">
+						<svg class="contacts__icon">
+							<use xlink:href="svg/sprite.symbol.svg#loc"></use>
+						</svg>
+					</div>
+					<div class="contacts__title">Адрес</div>
+					<p class="contacts__link">Ukraine</p>
+				</li>
+				<li class="contacts__item">
+					<div class="contacts__logo skype">
+						<svg class="contacts__icon">
+							<use xlink:href="svg/sprite.symbol.svg#skype"></use>
+						</svg>
+					</div>
+					<div class="contacts__title">Skype</div>
+					<a class="contacts__link skype" href="skype:forest19791?call" target="_blank">forest19791</a>
+				</li>
+				<li class="contacts__item">
+					<div class="contacts__logo email">
+						<svg class="contacts__icon">
+							<use xlink:href="svg/sprite.symbol.svg#email"></use>
+						</svg>
+					</div>
+					<div class="contacts__title">Email</div>
+					<a class="contacts__link email" href="mailto:zdl79@mail.ru" target="_blank">zdl79@mail.ru</a>
+				</li>
+				<li class="contacts__item">
+					<div class="contacts__logo telegram">
+						<svg class="contacts__icon">
+							<use xlink:href="svg/sprite.symbol.svg#telegram"></use>
+						</svg>
+					</div>
+					<div class="contacts__title">Telegram</div>
+					<a class="contacts__link telegram" href="tg://resolve?domain=forestino" target="_blank">@forestino</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<a href="#" class="pageup">
+		<svg class="pageup__icon">
+			<use xlink:href="svg/sprite.symbol.svg#arrow-up"></use>
+		</svg>
+	</a>
+
+	<script src="./js/libs.min.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
