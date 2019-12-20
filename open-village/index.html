@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Open Village</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap&subset=cyrillic-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <video autoplay muted loop class="header__video" poster="./img/video_bg.jpg">
+            <source src="./video/video.mp4" type="video/mp4">
+        </video>
+        <div class="header__inner">
+            <div class="container p50">
+                <div class="header__top">
+                    <img src="./img/logo.png" alt="Open village" class="header__logo">
+                    <div class="links">
+                        <a href="openvillage.ru">openvillage.ru</a>
+                        <div class="links__socials socials">
+                            <a href="https://vk.com/im?media=&sel=-173635762" class="soials__link" target="_blank"><img
+                                    src="./img/vk_icon.png" alt="VK"></a>
+                            <a href="https://facebook.com/events/945821739127029/?ti=icl" class="soials__link"
+                                target="_blank"><img src="./img/fb_icon.png" alt="VK"></a>
+                            <a href="https://www.instagram.com/openvillagefair/" class="soials__link"
+                                target="_blank"><img src="./img/insta_icon.png" alt="VK"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="location">
+                    <!-- <p>Место проведения: <br>
+                        Hyundai MotorStudio Moscow
+                    </p> -->
+                    <p>
+                        Москва, <br>
+                        Новый Арбат ул., 21, стр.1
+                    </p>
+                </div>
+                <h1 class="title">
+                    Большая <br> бизнес-встреча Open Village 2019
+                </h1>
+                <div class="header__subtitle">
+                    Итоги года. <br>
+                    Открыто о строительстве!
+                </div>
+                <p>
+                    Единственная в России выставка загородной недвижимости
+
+                </p>
+                <div class="header__wrapper">
+                    <div class="header__time">
+                        <strong>КОГДА:</strong> 4 декабря <br>с 11.00-14.30
+
+                    </div>
+                    <a href="#form" class="button js-button">Оформить бесплатный билет!
+                    </a>
+                    <div class="header__too">
+                        до 3 декабря
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="for container">
+        <h2 class="title">Для кого</h2>
+        <p>Мероприятие для всех,
+            кто предоставляет
+            свои товары и услуги
+            в Индивидуальном
+            Жилищном Строительстве
+        </p>
+        <div class="for__item">
+            <img src="./img/for_icon-1.png" alt="Для кого">
+            <div class="for__subtitle">Архитекторы</div>
+        </div>
+        <div class="for__item">
+            <img src="./img/for_icon-2.png" alt="Для кого">
+            <div class="for__subtitle">Дизайнеры</div>
+        </div>
+        <div class="for__item">
+            <img src="./img/for_icon-3.png" alt="Для кого">
+            <div class="for__subtitle">Проектировщики</div>
+        </div>
+        <div class="for__item">
+            <img src="./img/for_icon-4.png" alt="Для кого">
+            <div class="for__subtitle">Строители</div>
+        </div>
+        <div class="for__item">
+            <img src="./img/for_icon-5.png" alt="Для кого">
+            <div class="for__subtitle">Поставщики <br>товаров и услуг</div>
+        </div>
+    </section>
+    <section class="descr">
+        <div class="container">
+            <div class="descr__inner">
+                <h2 class="title">Описание события</h2>
+                <p>
+                    Проект <strong>Open Village</strong>
+                    набирает обороты.
+                </p>
+                <p>
+                    С проведением второй выставки, которую посетило большое количество людей, вскрылось много нюансов.
+                </p>
+                <p>
+                    В связи с этим мы проводим встречу с подтемой:
+                </p>
+                <p>
+                    <strong>“КАК ВЗЯТЬ МАКСИМУМ ЗАКАЗЧИКОВ ОТ УЧАСТИЯ
+                        В OPEN VILLAGE”.</strong>
+                </p>
+                <p>
+                    Приглашаем принять участие в Большой бизнес-встрече, где вас будут ждать команда проекта, готовая
+                    <strong>ответить на любые вопросы</strong>, и Виктор Лучков.
+                </p>
+                <p>
+                    <strong>Участие бесплатное</strong>, необходимо лишь ваше желание и регистрация на мероприятие.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="form container">
+        <div class="form__subtitle">
+            Заполни форму,
+            чтобы получить бесплатный билет на
+        </div>
+        <h2 class="title">
+            Большую <br>бизнес-встречу Open Village 2019
+        </h2>
+        <form id="form">
+            <div class="form__title">Заполни форму,</div>
+            <p>
+                чтобы получить бесплатный билет
+            </p>
+            <input type="text" placeholder="Ваше имя" required name="name">
+            <input type="tel" placeholder="Ваш телефон" required name="phone">
+            <input type="email" placeholder="Ваш email" required name="email">
+            <input type="text" placeholder="Название компании" name="company">
+            <input type="text" placeholder="Сфера деятельности" name="activity">
+            <button class="button">Оформить бесплатный билет!
+            </button>
+            <label class="form__label">
+                <input type="checkbox" name="agry" class="form__checkbox">
+                <span class="form__checkmark"></span> Я даю согласие на обработку данных
+            </label>
+        </form>
+    </section>
+    <section class="programm">
+        <div class="container">
+            <div class="programm__inner">
+                <div class="title">Программа мероприятия
+                </div>
+                <div class="programm__item">
+                    <div class="programm__time">10:45 - 11:00 </div>
+                    <div class="programm__desc">Сбор гостей</div>
+                </div>
+                <div class="programm__item">
+                    <div class="programm__time">11:00 -12:00</div>
+                    <div class="programm__desc">Владислав Копица</div>
+                </div>
+                <img src="./img/programm_photo.jpg" alt="Программа" class="programm__img">
+                <p>
+                    Итоги. Выводы. Рекомендации.
+                    Как работать с посетителями Open Village, чтобы взять максимум заказчиков
+                </p>
+                <div class="programm__item">
+                    <div class="programm__time">12:00-12:30</div>
+                    <div class="programm__desc">Вопросы - ответы</div>
+                </div>
+                <div class="programm__item">
+                    <div class="programm__time">12:30 - 13:30</div>
+                    <div class="programm__desc">Виктор Лучков с докладом
+                        на темы:</div>
+                </div>
+                <ol class="programm__list">
+                    <li class="programm__list-item">
+                        Что такое бизнес-процессы и какая от них польза
+                    </li>
+                    <li class="programm__list-item">
+                        Какие преимущества получит ваш бизнес при переходе на управление бизнес-процессами
+                    </li>
+                    <li class="programm__list-item">
+                        Модель системы управления бизнесом. Цикл управления Деминга-Шухарта PDCA
+                    </li>
+                    <li class="programm__list-item">
+                        Как детализировать бизнес-процессы, категории процессов
+                    </li>
+                    <li class="programm__list-item">
+                        Как правильно вовлечь всех участников бизнес-процессов в работу для получения максимальных
+                        результатов
+                    </li>
+                </ol>
+
+            </div>
+        </div>
+    </section>
+    <section class="place container">
+        <h2 class="title">Место проведения </h2>
+        <p>
+            Для удобства наших гостей
+            мы арендовали комфортную студию в центре города.
+        </p>
+        <p>
+            <strong>Бизнес-встреча <br>
+                пройдет по адресу:</strong>
+        </p>
+        <p>
+            город Москва,
+            улица Новый Арбат д. 21, ст. 1
+            (метро: Смоленская (400 м.), Арбатская (900 м.))
+        </p>
+    </section>
+    <section class="map">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9a5cf13b96385e9ae64dae2de947c0fe50d3b5863a65ae4e869d43668eca0aad&amp;width=100%25&amp;height=720&amp;lang=ru_UA&amp;scroll=false"></script>
+    </section>
+    <footer class="footer container">
+        <div class="footer__left">
+            <img src="./img/logo.png" alt="Open village" class="header__logo">
+            <div class="links links--footer">
+                <a href="openvillage.ru">openvillage.ru</a>
+                <div class="links__socials socials">
+                    <a href="https://vk.com/im?media=&sel=-173635762" class="soials__link" target="_blank"><img
+                            src="./img/vk-footer_icon.png" alt="VK"></a>
+                    <a href="https://facebook.com/events/945821739127029/?ti=icl" class="soials__link"
+                        target="_blank"><img src="./img/fb-footer_icon.png" alt="VK"></a>
+                    <a href="https://www.instagram.com/openvillagefair/" class="soials__link"
+                        target="_blank"><img src="./img/insta-footer_icon.png" alt="VK"></a>
+                </div>
+            </div>
+        </div>
+        <div class="location location--footer">
+            <p><strong>Место проведения:</strong> <br>
+                Hyundai MotorStudio Moscow
+            </p>
+            <p>
+                Москва, <br>
+                Новый Арбат ул., 21, стр.1
+            </p>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
