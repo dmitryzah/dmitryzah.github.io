@@ -1,0 +1,306 @@
+header {
+  background-image: url(../img/inner-trans-bg.jpg);
+  min-height: 250px;
+  padding-bottom: 50px;
+}
+header .main-header {
+  padding-top: 25px;
+}
+header .main-header .ring,
+header .main-header .title,
+header .main-header .desc,
+header .main-header h1 {
+  color: #fff;
+  margin-bottom: 50px;
+}
+.geography .wrap-center-layer {
+  background-image: none;
+}
+.geography h2.agents {
+  margin-top: 10px;
+}
+.transporting {
+  margin: 35px;
+  margin-right: 0;
+  color: #262626;
+  position: relative;
+  padding-right: 400px;
+}
+.transporting .breadcrumbs {
+  font-size: 11px;
+}
+.transporting .breadcrumbs li {
+  float: left;
+  padding-right: 15px;
+  margin-right: 10px;
+  position: relative;
+}
+.transporting .breadcrumbs li:after {
+  content: '/';
+  position: absolute;
+  right: 0;
+  color: #0085ca;
+}
+.transporting .breadcrumbs li a {
+  color: #0085ca;
+  text-decoration: none;
+}
+.transporting .breadcrumbs li:last-child:after {
+  content: '';
+}
+.transporting .breadcrumbs li:last-child a {
+  color: #c2c2c2;
+}
+.transporting h2 {
+  clear: both;
+  font: 33px RobotoBold, sans-serif;
+  color: #0f1e21;
+  text-transform: uppercase;
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+.transporting p {
+  margin-bottom: 15px;
+}
+.transporting .types {
+  position: absolute;
+  top: -60px;
+  right: 0;
+  padding: 25px 35px 35px;
+  background: #0095ca;
+  border-radius: 3px;
+  color: #fff;
+}
+.transporting .types h3 {
+  font: 22px/26px Tahoma, Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.transporting .types > ul {
+  margin: 0 15px;
+}
+.transporting .types > ul > li {
+  padding-left: 15px;
+  position: relative;
+  font-family: RobotoBold;
+  line-height: 36px;
+}
+.transporting .types > ul > li:before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 5px;
+  width: 5px;
+  border-bottom: 1px solid #fefefe;
+  border-left: 1px solid #fefefe;
+  top: 14px;
+  left: 0;
+  -webkit-transform: rotate(-135deg);
+      -ms-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+}
+.transporting .types > ul > li a {
+  color: #fefefe;
+  text-decoration: none;
+}
+.transporting .types > ul > li a:hover {
+  color: #134981;
+}
+.transporting .types > ul > li ul {
+  margin-left: 10px;
+  font-family: RobotoRegular;
+  line-height: 36px;
+}
+.transporting .types > ul > li ul li a {
+  text-decoration: none;
+}
+.transporting .types > ul > li ul li a:hover {
+  color: #134981;
+}
+.transporting .types > ul > li.active:before {
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.tarifs {
+  margin: 35px;
+  color: #262626;
+  padding-bottom: 45px;
+  overflow: hidden;
+}
+.tarifs h2 {
+  font: 33px RobotoBold, sans-serif;
+  color: #0f1e21;
+  text-transform: uppercase;
+  padding-top: 25px;
+  margin-bottom: 40px;
+}
+.tarifs table {
+  width: 840px;
+  border-collapse: separate;
+  color: #262626;
+  font-size: 14px;
+}
+.tarifs table tr td {
+  width: 240px;
+}
+.tarifs table tr td:first-child {
+  text-align: center;
+}
+.tarifs table tr td:nth-child(3) {
+  width: 215px;
+}
+.tarifs table tr td:last-child {
+  width: 150px;
+}
+.tarifs table.head {
+  background-color: #134981;
+  color: #fff;
+  font-family: RobotoBold, sans-serif;
+  line-height: 42px;
+  border: 1px solid #134981;
+  border-radius: 3px;
+  padding: 0;
+}
+.tarifs table.head td:first-child {
+  padding-left: 20px;
+  width: 220px;
+  text-align: left;
+}
+.tarifs table.main tr td {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  border-bottom: 1px dashed #262626;
+}
+.tarifs table.main tr td .name {
+  margin-bottom: 20px;
+}
+.tarifs table.main tr td strong {
+  font-family: RobotoBold, sans-serif;
+}
+.tarifs table.main tr td p {
+  margin-bottom: 10px;
+}
+.tarifs table.main tr td:last-child {
+  vertical-align: middle;
+}
+.tarifs table.main tr td .price {
+  display: none;
+}
+.order {
+  margin: 35px;
+  padding-bottom: 55px;
+}
+.order h2 {
+  font: 33px RobotoBold, sans-serif;
+  color: #0f1e21;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+.order .order-block {
+  width: 180px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 16px;
+}
+.order .order-block img {
+  margin-bottom: 15px;
+}
+.order .order-block h3 {
+  font: 18px RobotoBold, sans-serif;
+  color: #262626;
+  margin-bottom: 10px;
+}
+.order .order-block p {
+  font-size: 14px;
+  color: #8a8a8a;
+}
+/*		MEDIAQUERIES    */
+@media all and (max-width: 930px) {
+  .order {
+    text-align: center;
+  }
+}
+@media all and (max-width: 920px) {
+  .tarifs table {
+    width: 100%;
+  }
+  .tarifs table tr td {
+    width: 30%;
+  }
+  .tarifs table tr td:nth-child(3) {
+    width: 20%;
+  }
+  .tarifs table tr td:last-child {
+    width: 20%;
+  }
+  .tarifs table tr td img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media all and (max-width: 900px) {
+  .transporting {
+    padding-right: 300px;
+  }
+  .transporting .types {
+    padding: 20px 10px;
+  }
+}
+@media all and (max-width: 750px) {
+  .transporting {
+    margin: 35px;
+    padding-right: 0;
+  }
+  .transporting .types {
+    position: static;
+  }
+}
+@media all and (max-width: 660px) {
+  .tarifs table.main tr td .price {
+    display: block;
+    margin-top: 10px;
+  }
+  .tarifs table tr td {
+    width: 40%;
+  }
+  .tarifs table tr td:nth-child(3) {
+    width: 20%;
+  }
+  .tarifs table tr td:last-child {
+    display: none;
+  }
+}
+@media all and (max-width: 620px) {
+  header .main-header h1,
+  header .main-header .title,
+  header .main-header .ring {
+    margin-bottom: 20px;
+  }
+  header .main-header .title {
+    margin-left: 35px;
+  }
+}
+@media all and (max-width: 450px) {
+  .transporting .breadcrumbs li {
+    line-height: 20px;
+  }
+}
+@media all and (max-width: 430px) {
+  .tarifs table tr td {
+    width: 100%;
+  }
+  .tarifs table tr td:nth-child(2) {
+    display: none;
+  }
+  .tarifs table tr td:nth-child(3) {
+    display: none;
+  }
+}
+@media all and (max-width: 330px) {
+  .tarifs h2 {
+    font-size: 30px;
+  }
+}

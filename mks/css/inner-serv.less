@@ -1,0 +1,264 @@
+﻿
+
+header{
+	background-image: url(../img/services-header-bg.jpg);
+	min-height: 250px;
+	padding-bottom: 50px;
+	.main-header{
+		padding-top: 25px;
+		.ring, .title, .desc, h1{
+			color: #fff;
+			margin-bottom: 50px;
+		}
+		// .desc{
+		// 	margin: 35px;
+		// 	span, strong{
+		// 		background-color: transparent;
+		// 		padding-left: 0;
+		// 	}
+		// }
+	}
+}
+
+
+
+
+
+
+.geography {
+	.wrap-center-layer{
+		background-image: none;
+	}
+	h2.agents{
+		margin-top: 10px;
+	}
+}
+.services{
+	margin: 35px;
+	margin-right: 0;
+	color: #262626;
+	position: relative;
+	.breadcrumbs{
+		font-size: 11px;
+		li{
+			float: left;
+			padding-right: 15px;
+			margin-right: 10px;
+			position: relative;
+			&:after{
+				content: '/';
+				position: absolute;
+				right: 0;
+				color: #0085ca;
+			}
+			a{
+				color: #0085ca;
+				text-decoration: none;
+			}
+			&:last-child{
+				&:after{
+					content: '';
+				}
+				a{
+					color: #c2c2c2;
+				}
+			}
+		}
+	}
+	h2{
+		clear: both;
+		font: 33px RobotoBold,sans-serif;
+		color: #0f1e21;
+		text-transform: uppercase;
+		padding-top: 25px;
+	}
+	.serv-list{
+		margin-right: 400px;
+		li{
+			padding: 25px 0 25px 135px;
+			background-repeat: no-repeat;
+			&:first-child{
+				background-image: url(../img/earth.png);
+				background-position: 38px center;
+			}
+			&:nth-child(2){
+				background-image: url(../img/cargo.png);
+				background-position: 35px center;
+			}
+			&:nth-child(3){
+				background-image: url(../img/bag.png);
+				background-position: 30px center;
+			}
+			&:nth-child(4){
+				background-image: url(../img/notes.png);
+				background-position: 45px center;
+			}
+			&:last-child{
+				background-image: url(../img/purse.png);
+				background-position: 45px center;
+			}
+			p{
+				strong{
+					font-family: RobotoBold;
+				}
+			}
+		}
+	}
+	.types{
+		position: absolute;
+		top: -60px;
+		right: 0;
+		padding: 25px 35px 35px;
+		background: #0095ca;
+		border-radius: 3px;
+		color: #fff;
+		h3{
+			font: 22px/26px Tahoma, Arial, sans-serif;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-align: center;
+			margin-bottom: 25px;
+		}
+		> ul{
+			margin: 0 15px;
+			> li{
+				padding-left: 15px;
+				position: relative;
+				font-family: RobotoBold;
+				line-height: 36px;
+				&:before{
+					content: '';
+					position: absolute;
+					display: block;
+					height: 5px;
+					width: 5px;
+					border-bottom: 1px solid #fefefe;
+					border-left: 1px solid #fefefe;
+					top: 14px;
+					left: 0;
+					transform: rotate(-135deg);
+				}
+				a{
+					color: #fefefe;
+					text-decoration: none;
+					&:hover{
+								color: #134981;
+							}
+				}
+				ul{
+					margin-left: 10px;
+					font-family: RobotoRegular;
+					line-height: 36px;
+					li{
+						a{
+							text-decoration: none;
+							&:hover{
+								color: #134981;
+							}
+						}
+					}
+				}
+				&.active:before{
+					transform: rotate(-45deg);
+				}
+			}
+		}
+	}
+}
+.modes{
+	margin: 35px;
+	color: #262626;
+	padding-bottom: 45px;
+	overflow: hidden;
+	h2{
+		font: 33px RobotoBold,sans-serif;
+		color: #0f1e21;
+		text-transform: uppercase;
+		padding-top: 25px;
+	}
+	.col{
+		width: 550px;
+		&:first-of-type{
+			float: left;
+		}
+		&:last-of-type{
+			float: right;
+		}
+		.modes-block{
+			margin-top: 50px;
+			h3{
+				font: 22px RobotoBold,sans-serif;
+				color: #134981;
+				text-transform: uppercase;
+				margin-bottom: 20px;
+			}
+			p{
+				margin-bottom: 15px;
+			}
+			ul{
+				list-style-type: disc;
+				margin-left: 20px;
+				margin-bottom: 15px;
+			}
+		}
+	}
+}
+
+       /*    MEDIAQUERIES    */
+
+@media all and (max-width: 1200px){
+	.modes .col{
+		width: 48%;
+
+	}
+}
+
+@media all and (max-width: 900px){
+	.services .types{
+		padding: 20px 10px;
+	}
+	.services .serv-list{
+		margin-right: 300px;
+	}
+}
+
+
+@media all and (max-width: 750px){
+	.modes .col{
+		width: 100%;
+		float: none;
+	}
+	.services {
+		margin: 35px;
+		.types{
+			position: static;
+		}
+		.serv-list{
+			margin-right: 0;
+		}
+	}
+}
+
+@media all and (max-width: 620px){
+	header .main-header h1, 
+	header .main-header .title, 
+	header .main-header .ring{
+		margin-bottom: 20px;
+	}
+	header .main-header .title{
+		margin-left: 35px;
+	}
+}
+
+@media all and (max-width: 520px){
+	.wrap-center-layer .services .serv-list li{
+		background-image: none;
+		padding-left: 0;
+	}
+}
+
+@media all and (max-width: 450px){
+	.transporting .breadcrumbs li{
+		line-height: 20px;
+	}
+}
