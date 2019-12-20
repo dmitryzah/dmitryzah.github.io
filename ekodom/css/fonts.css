@@ -1,0 +1,31 @@
+@font-face {
+	font-family: "PFDinDisplayProReg";
+	src: url("../fonts/PFDinDisplayPro/pfdindisplaypro-reg-webfont.eot");
+	src: url("../fonts/PFDinDisplayPro/pfdindisplaypro-reg-webfont.pfdindisplaypro-reg-webfont.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/PFDinDisplayPro/pfdindisplaypro-reg-webfont.woff") format("woff"),
+			 url("../fonts/PFDinDisplayPro/pfdindisplaypro-reg-webfont.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "PFDinDisplayProMed";
+	src: url("../fonts/PFDinDisplayPro/pfdindisplaypro-med-webfont.eot");
+	src: url("../fonts/PFDinDisplayPro/pfdindisplaypro-med-webfont.pfdindisplaypro-reg-webfont.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/PFDinDisplayPro/pfdindisplaypro-med-webfont.woff") format("woff"),
+			 url("../fonts/PFDinDisplayPro/pfdindisplaypro-med-webfont.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PFDinDisplayProBold";
+	src: url("../fonts/PFDinDisplayPro/pfdindisplaypro-bold-webfont.eot");
+	src: url("../fonts/PFDinDisplayPro/pfdindisplaypro-bold-webfont.pfdindisplaypro-reg-webfont.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/PFDinDisplayPro/pfdindisplaypro-bold-webfont.woff") format("woff"),
+			 url("../fonts/PFDinDisplayPro/pfdindisplaypro-bold-webfont.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
