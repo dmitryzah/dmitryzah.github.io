@@ -1,0 +1,358 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.coop_scheme .left p.p12 {
+		margin-top: 75px;
+	}
+	.coop_scheme .left p.p14 ,
+	.coop_scheme .left p.p15 {
+		margin-top: 55px;
+	}
+	.coop_scheme .left p.p17 {
+		margin-top: 70px;
+	}
+	.post_vacancy_prev .vacancy_params{
+		padding-top: 18px;
+		padding-left: 5px;
+	}
+	.sidebar-widget form .request_btn{
+		line-height: 24px;
+	}
+	.sidebar-widget.hot_vacancy_list a{
+		width: auto;
+		float: none;
+		display: block;
+	}
+	.sidebar-widget.hot_vacancy_list .vac_salary{
+		float: none;
+		display: block;
+		text-align: right;
+	}
+	.all_vacancy input[name="profession"]{
+		width: 270px;
+	}
+	.thanks h1{
+		max-width: 600px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.top_menu li{
+		margin-right: 13px;
+	}
+	.top_menu li:last-child{
+		margin-right: 0;
+	}
+	.top_menu_line .languages a{
+		width: 16px;
+		height: 16px;
+		border: 2px solid #303f4c;
+		border-radius: 4px;
+	}
+	.header_logo{
+		display: block;
+		margin-top: 17px;
+	}
+	.header_middle .contacts .phones{
+		float: right;
+	}
+	.header_middle .contacts .tel,
+	.header_middle .contacts .email{
+		float: none;
+		padding-left: 6px;
+	}
+	.header_middle .contacts i{
+		position: absolute;
+	}
+	.header_middle .contacts i.fa-mobile{
+		left: 0;
+		font-size: 28px;
+	}
+	.header_middle .contacts i.fa-envelope{
+		left: -3px;
+		top: 56%;
+		font-size: 18px;
+	}
+	.site_title_bg{
+		background: none;
+		padding: 35px 35px 40px;
+	}
+	.site_title input[name="profession"]{
+		width: 270px;
+	}
+	.site_title input[name="salary"]{
+		width: 170px;
+	}
+	.coop_scheme .left p.p2, 
+	.coop_scheme .left p.p3{
+		margin-top: 60px;
+	}
+	.coop_scheme .left p.p5 {
+		margin-top: 27px;
+	}
+	.coop_scheme .left p.p7 {
+		margin-top: 60px;
+	}
+	.coop_scheme .left p.p11 ,
+	.coop_scheme .left p.p14 {
+		margin-top: 76px;
+	}
+	.coop_scheme .left p.p15 {
+		margin-top: 104px;
+	}
+	.job_services .services_pay{
+		min-height: 430px;
+	}
+	.answers .answers_manager{
+		padding: 20px 12px;
+	}
+	.answers_manager .manager_name{
+		font-size: 14px;
+	}
+	.answers .answers_questions{
+		padding: 20px 30px;
+	}
+	.to_top{
+		display: none !important;
+	}
+	.sidebar-widget form .request_btn{
+		line-height: 42px;
+	}
+	.sidebar-widget .answers_manager{
+		text-align: center;
+	}
+	.sidebar-widget.hot_vacancy_list a{
+		float: left;
+	}
+	.request_desc{
+		margin-top: 20px;
+	}
+	aside .answers_manager img{
+		float: none;
+	}
+	.post_vacancy{
+		margin-bottom: 20px;
+	}
+	.thanks .social{
+		margin-left: 0;
+		text-align: center;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	footer .social{
+		text-align: left;
+		margin-top: 50px;
+	}
+	.site_title {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.site_title .find_prof{
+		width: 40px;
+		height: 44px;
+		background-color: #00b6e9;
+		border: 2px solid #303f4c;
+		border-radius: 0 4px 4px 0;
+		padding: 0;
+		box-shadow:none;
+		top: 1px;
+	}
+	
+	.site_title .find_prof:hover{
+		box-shadow:none;
+	}
+	.site_title input{
+		margin-right: -4px;
+		border-radius: 4px 0 0 4px;
+		border-right: none;
+	}
+	.answers_manager img{
+		float: left;
+		max-width: 100px;
+		margin-right: 20px;
+	}
+	.answers .answers_manager{
+		padding: 30px 20px 20px;
+		margin-bottom: 10px;
+	}
+	.answers_questions .read_more{
+		display: inline-block;
+		width: 98px;
+		background-color: #00b6e9;
+		border-radius: 4px;
+		box-shadow: 0 2px 0 #008cb3;
+		text-align: center;
+		text-shadow: 0 -1px 0 rgba(5, 6, 7, 0.16);
+		color: white;
+		font: 12px/28px roboto_medium, sans-serif;
+		text-decoration: none;
+		margin: 20px auto;
+	}
+	.post_vacancy_prev img{
+		width: 100%;
+	}
+	.post_vacancy_prev .vacancy_params{
+		padding: 20px 35px;
+		overflow: hidden;
+		text-align: center;
+	}
+	.vacancy_params .vacancy_town,
+	.vacancy_params .vacancy_home,
+	.vacancy_params .vacancy_salary{
+		margin-bottom: 0;
+		text-align: left;
+		height: auto;
+	}
+	.vacancy_params .vacancy_town{
+		float: left;
+	}
+	.vacancy_params .vacancy_home{
+		display: inline-block;
+		text-align: left;
+		margin-top: 0;
+	}
+	.vacancy_params .vacancy_salary{
+		float: right;
+		text-align: left;
+	}
+	.all_vacancy form{
+		text-align: center;
+	}
+.all_vacancy .find_prof{
+		width: 40px;
+		height: 44px;
+		background-color: #00b6e9;
+		border: 2px solid #303f4c;
+		border-radius: 0 4px 4px 0;
+		padding: 0;
+		box-shadow:none;
+		top: 1px;
+	}
+	
+	.all_vacancy .find_prof:hover{
+		box-shadow:none;
+	}
+	.all_vacancy input{
+		margin-right: -4px;
+		border-radius: 4px 0 0 4px;
+		border-right: none;
+	}
+
+	.mdl-button{
+		min-width: auto;
+		vertical-align: inherit;
+	}
+}
+
+@media only screen and (max-width : 510px){
+	.post_vacancy_prev .vacancy_params{
+		font-size: 14px;
+	}
+	.vacancy_params .vacancy_town,
+	.vacancy_params .vacancy_home,
+	.vacancy_params .vacancy_salary{
+		padding-left: 45px;
+		line-height: 21px;
+	}
+	.vacancy_params .vacancy_town{
+		background-image: url(../img/icon-town-small.png);
+	}
+	.vacancy_params .vacancy_home{
+		background-image: url(../img/icon-home-small.png);
+	}
+	.vacancy_params .vacancy_salary{
+		background-image: url(../img/icon-salary-small.png);
+	}
+	.vacancy_params strong{
+		font-size: 12px;
+	}
+	.error_404 span{
+		font-size: 180px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.hidden-xm{
+		display: none !important;
+		visibility: hidden !important;
+	}
+	.visible-xm{
+		display: block !important;
+	}
+	.main_menu li{
+		float: none;
+		display: inline-block;
+		margin: 0 8px;
+	}
+	.site_title input[name="profession"]{
+		width: 220px;
+	}
+	.hot_vacancy .vacancy_block{
+		padding: 12px 20px 12px 35px;
+		min-height: auto;
+	}
+	.vacancy_block img{
+		margin-top: 0;
+	}
+	.vacancy_block .vac_block_wrap{
+		margin-left: 125px;
+		font-family: roboto_medium, sans-serif;
+	}
+	.vacancy_block .bold{
+		float: none;
+		font-family: robotoregular, sans-serif;
+	}
+	.vacancy_block .read_more{
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		line-height: 32px;
+		font-size: 30px;
+		padding-left: 12px;
+		margin: 0;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 420px) {
+	/*.post_vacancy_prev .vacancy_params{
+		padding: 20px 25px;
+	}*/
+.post_vacancy .vacancy_desc{
+	padding: 30px;
+}
+.post_vacancy_prev .vacancy_params{
+		font-size: 17px;
+	}
+	.vacancy_params .vacancy_town,
+	.vacancy_params .vacancy_home,
+	.vacancy_params .vacancy_salary{
+		padding-left: 60px;
+		margin-bottom: 20px;
+		line-height: 24px;
+		float: none;
+		display: block;
+	}
+	.vacancy_params .vacancy_town{
+		background-image: url(../img/icon-town.png);
+	}
+	.vacancy_params .vacancy_home{
+		background-image: url(../img/icon-home.png);
+	}
+	.vacancy_params .vacancy_salary{
+		background-image: url(../img/icon-salary.png);
+	}
+	.vacancy_params strong{
+		font-size: 15px;
+	}
+
+
+
+}
+
